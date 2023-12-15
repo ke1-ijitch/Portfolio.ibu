@@ -1,0 +1,516 @@
+@media screen and (min-width:1500px) {
+  .p-position{ 
+    animation-name: p-position;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+  }
+
+  @keyframes p-position{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+  }
+  
+  .p-border{
+    animation-name: p-border;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+  }
+
+  @keyframes p-border{
+    0%{
+        transform: translate(0);
+    }
+
+    15%{
+        transform: translate(80px,0);
+    }
+
+    40%{
+        transform: translate(80px,80px);
+    }
+
+    50%{
+        transform: translate(0,80px);
+    }
+  }
+
+     .o-position{ 
+    animation-name: o-position;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+  }
+
+  @keyframes o-position{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(20px);
+    }
+  }
+
+  .o-border{
+    animation-name: o-border;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+  }
+
+  @keyframes o-border{
+    0%{
+        transform: translate(0);
+    }
+
+    15%{
+        transform: translate(0,80px);
+    }
+
+    40%{
+        transform: translate(80px,80px);
+    }
+
+    50%{
+        transform: translate(80px,0);
+    }
+  }
+    .t-position{ 
+      animation-name: t-position;
+      animation-duration: 5s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes t-position{
+      0%{
+          transform: translateY(0);
+      }
+  
+      50%{
+          transform: translateY(-20px);
+      }
+    }
+  
+    .t-border{
+      animation-name: t-border;
+      animation-duration: 8s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes t-border{
+      0%{
+          transform: translate(0);
+      }
+  
+      15%{
+          transform: translate(0,80px);
+      }
+  
+      40%{
+          transform: translate(80px,80px);
+      }
+  
+      50%{
+          transform: translate(80px,0);
+      }
+    }
+  }
+
+  @media screen and (max-width:1500px) {
+    .p-position{ 
+      animation-name: p-position;
+      animation-duration: 5s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes p-position{
+      0%{
+          transform: translateY(0) scale(0.7);
+      }
+  
+      50%{
+          transform: translateY(20px) scale(0.7);
+      }
+    }
+    
+    .p-border{
+      animation-name: p-border;
+      animation-duration: 8s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes p-border{
+      0%{
+          transform: translate(0) scale(0.9);
+      }
+  
+      15%{
+          transform: translate(80px,0) scale(0.9);
+      }
+  
+      40%{
+          transform: translate(80px,80px) scale(0.9);
+      }
+  
+      50%{
+          transform: translate(0,80px) scale(0.9);
+      }
+    }
+  
+       .o-position{ 
+      animation-name: o-position;
+      animation-duration: 7s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes o-position{
+      0%{
+          transform: translateY(0) scale(0.7);
+      }
+  
+      50%{
+          transform: translateY(20px) scale(0.7);
+      }
+    }
+  
+    .o-border{
+      animation-name: o-border;
+      animation-duration: 10s;
+      animation-iteration-count:infinite;
+      animation-direction: reverse;
+      animation-timing-function: linear;
+    }
+  
+    @keyframes o-border{
+      0%{
+          transform: translate(0) scale(0.9);
+      }
+  
+      15%{
+          transform: translate(0,80px) scale(0.9);
+      }
+  
+      40%{
+          transform: translate(80px,80px) scale(0.9);
+      }
+  
+      50%{
+          transform: translate(80px,0) scale(0.9);
+      }
+    }
+      .t-position{ 
+        animation-name: t-position;
+        animation-duration: 5s;
+        animation-iteration-count:infinite;
+        animation-direction: reverse;
+        animation-timing-function: linear;
+      }
+    
+      @keyframes t-position{
+        0%{
+            transform: translateY(0) scale(0.7);
+        }
+    
+        50%{
+            transform: translateY(-20px) scale(0.7);
+        }
+      }
+    
+      .t-border{
+        animation-name: t-border;
+        animation-duration: 8s;
+        animation-iteration-count:infinite;
+        animation-direction: reverse;
+        animation-timing-function: linear;
+      }
+    
+      @keyframes t-border{
+        0%{
+            transform: translate(0) scale(0.9);
+        }
+    
+        15%{
+            transform: translate(0,80px) scale(0.9);
+        }
+    
+        40%{
+            transform: translate(80px,80px) scale(0.9);
+        }
+    
+        50%{
+            transform: translate(80px,0) scale(0.9);
+        }
+      }
+    }
+
+  .p-position:hover{
+    animation-play-state: paused;
+  }
+
+  .p-border:hover{
+    animation-play-state: paused;
+  }
+
+  .o-position:hover{
+    animation-play-state: paused;
+  }
+
+  .o-border:hover{
+    animation-play-state: paused;
+  }
+
+  .t-position:hover{
+    animation-play-state: paused;
+  }
+
+  .t-border:hover{
+    animation-play-state: paused;
+  }
+
+  .vertical-bar01{
+    animation: vertical-bar01;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes vertical-bar01{
+    0%{
+        width: 1px;
+        height: 0px;
+        opacity: 0;
+    }
+
+    100%{
+        width: 1px;
+        height: 1300px;
+        opacity: 1;
+    }
+  }
+
+  .vertical-bar02{
+    animation: vertical-bar02;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes vertical-bar02{
+    0%{
+        width: 1px;
+        height: 0px;
+        opacity: 0;
+    }
+
+    100%{
+        width: 1px;
+        height: 2400px;
+        opacity: 1;
+    }
+  }
+
+  .horizontal-bar01{
+    animation: horizontal-bar01;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes horizontal-bar01{
+    0%{
+        width: 0%;
+        height: 1px;
+        opacity: 0;
+    }
+
+    100%{
+        max-width: 400px;
+        width: 100%;
+        height: 1px;
+        opacity: 1;
+    }
+  }
+
+  .horizontal-bar02{
+    animation: horizontal-bar02;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes horizontal-bar02{
+    0%{
+        width: 0%;
+        height: 1px;
+        opacity: 0;
+    }
+
+    100%{
+        max-width: 400px;
+        width: 100%;
+        height: 1px;
+        opacity: 1;
+    }
+  }
+
+  .tomatoposter{
+    filter: grayscale(70%);
+    transition: 0.8s;
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+
+  .tomatoposter:hover{
+    filter: grayscale(0%);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10000;
+  }
+
+  .tomatocover{
+    filter: grayscale(70%);
+    transition: 0.8s;
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+
+  .tomatocover:hover{
+    filter: grayscale(0%);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10000;
+  }
+
+  .tomatopack{
+    filter: grayscale(70%);
+    transition: 0.8s;
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+
+  .tomatopack:hover{
+    filter: grayscale(0%);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10000;
+  }
+  .tomatowrap{
+    filter: grayscale(70%);
+    transition: 0.8s;
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+
+  .tomatowrap:hover{
+    filter: grayscale(0%);
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10000;
+  }
+
+  .anim-FadeinX{
+    animation-name: anim-FadeinX;
+    animation-duration:1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes anim-FadeinX{
+    0%{
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .anim-Fadein-X{
+    animation-name: anim-Fadein-X;
+    animation-duration:1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes anim-Fadein-X{
+    0%{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .anim-FadeinY{
+    animation-name: anim-FadeinY;
+    animation-duration:1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes anim-FadeinY{
+    0%{
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .anim-Fadein-Y{
+    animation-name: anim-Fadein-Y;
+    animation-duration:1.5s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes anim-Fadein-Y{
+    0%{
+      opacity: 0;
+      transform: translateY(100px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }

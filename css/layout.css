@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+.wrap{
+	width:100%;
+	height:100vh;
+	position:fixed;/*基準要素、子の基準となる*/
+	z-index: -10000;
+}
+
+.logo{
+  position: fixed;
+}
+
+/*アニメーション描画用*/
+canvas{
+	position:absolute;/*親のブロックを基準にして相対位置に配置する*/
+	/*位置指定*/
+	top:0;
+	right:0;
+	z-index: -10000;/*重ね順を-100000に　※1以上だとほかのコンテンツの上に被さってしまいます*/
+}
+
+
+@media screen and (min-width:1500px) {
+  .p-position{ /* 位置調整と基準ボックス */
+    position: fixed;
+	top: 400px;
+	left: 250px;
+  }
+
+.profile{ 
+  position: absolute;
+}
+
+.p-text-L{
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+
+.p-text-u{
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+
+.p-border{
+  position: absolute;
+  top: -25px;
+  left: -25px;	
+}
+
+.o-position{ /* 位置調整と基準ボックス */
+    position: fixed;
+	top: 150px;
+	right: 250px;
+  }
+
+.others{ 
+  position: absolute;
+}
+
+.o-text-L{
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+
+.o-text-u{
+  position: absolute;
+  top: 110px;
+  left: 40px;
+}
+
+.o-border{
+  position: absolute;
+  top: -25px;
+  left: -25px;	
+}
+
+.t-position{ /* 位置調整と基準ボックス */
+  position: fixed;
+	top: 550px;
+	right: 350px;
+}
+
+.Top{ 
+  position: absolute;
+}
+
+.t-text-L{
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+
+.t-text-u{
+  position: absolute;
+  top: 110px;
+  left: 70px;
+}
+
+.t-border{
+  position: absolute;
+  top: -25px;
+  left: -25px;	
+}
+
+}
+
+.main-container{
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: -101;
+}
+
+.Garden-box{
+   text-align: center;
+}
+
+.works-s{
+	position: relative;
+	right: 15px;
+	text-align: left;
+}
+
+.k-img{
+  position: relative;
+	z-index: 1;
+}
+
+.k-details{
+	text-align: left;
+}
+
+.works-l{
+  position: absolute;
+  top: -700px;
+  left: 100px;
+  transform: rotate(-90deg);
+  z-index: -50;
+}
+
+.vertical-bar01{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 1000;
+}
+
+.vertical-bar02{
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  z-index: 2500;
+}
+
+.horizontal-bar01{
+  position: absolute;
+  top: 50px;
+  z-index: 1000;
+}
+
+.horizontal-bar02{
+  position: absolute;
+  top: 20px;
+  z-index: 1000;
+}
+
+.Garden-box-position{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+.g-cover-box,.g-under-box{
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+}
+
+.g-cover-box{
+  z-index: 10;
+}
+
+.g-under-box{
+  z-index: 5;
+}
+
+.right-job{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  text-align: right;
+}
+
+.Job-box-position{
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+.j-cover-box,.j-under-box{
+  position: absolute;
+  top: 100px;
+  left: -160px;
+  transform: rotate(90deg);
+}
+
+.j-cover-box{
+  z-index: 10;
+}
+
+.j-under-box{
+  z-index: 5;
+}
+
+.middle-box p{
+  position: absolute;
+  line-height: 0;
+}
+
+#PRO{
+  top: 70px;
+  left: -20px;
+  z-index: 100;
+}
+
+#FILE{
+  bottom: -200px;
+  right: -20px;
+  z-index: 100;
+}
+
+.others-L-bg{
+  transform: rotate(90deg);
+  position: absolute;
+  right: -50px;
+  top: 300px;
+}
+
+
+.fase1{
+  position: relative;
+}
+
+.tomato-box-position{
+  position: relative;
+}
+
+
+.tomato-cover-box{
+  position: absolute;
+  right: 0;
+}
+
+.icon-c,.icon-u{
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+
+.fase2{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+.fase3{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+.fase4{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+.fase5{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.tehepero{
+  position: absolute;
+  bottom: 5px;
+  right: 160px;
+}
+
+.tomatologo{
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  z-index: 10;
+}
+
+.tomatoicon{
+  position: absolute;
+  right: 220px;
+  top: 55px;
+  z-index: 10;
+}
+
+.tomatoposter{
+  position: absolute;
+  top: 220px;
+}
+
+.fase2 p{
+  position: absolute;
+  top: 220px;
+  right: 20px;
+}
+
+.tomatocover{
+  position: absolute;
+  top: 540px;
+  right: 0;
+}
+
+.fase3 p{
+  position: absolute;
+  top: 710px;
+  left: 50px;
+}
+
+.tomatopack{
+  position: absolute;
+  top: 800px;
+}
+
+.tomatowrap{
+  position: absolute;
+  top: 1060px;
+  right: 0;
+}
+
+.fase5 p{
+  position: absolute;
+  top: 1180px;
+  left: -60px;
+}
